@@ -1,0 +1,25 @@
+body {
+    .container {
+        .profiles {
+            .profile {
+                display: flex;
+                flex-direction: row;
+                margin-top: $margin-top-user;
+    
+                img {
+                    width: $width;
+                    height: $height;
+                    margin-left: $small-margin-left;
+                }
+    
+                p {
+                    margin: 0;
+                    padding: 0;
+                    display: inline;
+                    padding-top: $padding-p-user-top;
+                    padding-left: $padding-p-user-left;
+                }
+            }
+        }
+    }
+}

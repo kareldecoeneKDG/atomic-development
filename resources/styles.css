@@ -1,0 +1,79 @@
+div .icons {
+  display: inline;
+}
+
+body .container .header {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+body .container .header p {
+  margin: 0;
+  padding: 0;
+  display: inline;
+  width: 50px;
+  height: 25px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+body .container .header div {
+  width: 100px;
+  display: inline;
+  margin-left: 150px;
+}
+
+body .container .header div img {
+  margin: 0;
+  padding: 0;
+  width: 24px;
+  height: 24px;
+  margin-top: 25px;
+  margin-left: 5px;
+}
+
+body .container .profiles .profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 15px;
+}
+
+body .container .profiles .profile img {
+  width: 24px;
+  height: 24px;
+  margin-left: 30px;
+}
+
+body .container .profiles .profile p {
+  margin: 0;
+  padding: 0;
+  display: inline;
+  padding-top: 3px;
+  padding-left: 12px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Tahoma", sans-serif;
+  font-weight: 600;
+}
+
+body .container {
+  background-color: #f0f2f5;
+  margin-right: 86%;
+  padding-bottom: 1%;
+}
+/*# sourceMappingURL=styles.css.map */
